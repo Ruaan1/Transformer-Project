@@ -86,10 +86,10 @@ python main.py --switch_period 64 --supervise all
 
 ### Key Arguments
 Argument	         Description
---switch_period	   Context switch frequency (none, 32, 64, 128)
---supervise	SEP    supervision scope (all, last, query)
---train_batches	   Training batch count
+--switch_period	     Context switch frequency (none, 32, 64, 128)
+--supervise	SEP      supervision scope (all, last, query)
+--train_batches	     Training batch count
 --d_model	Model    hidden size
 --num_layers	     Transformer depth
---num_heads	       Attention heads
+--num_heads	         Attention heads
 --epochs	         Training epochs
